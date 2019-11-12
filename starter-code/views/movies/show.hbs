@@ -1,0 +1,13 @@
+{{#with movies}}
+
+<h2>Details about {{title}}</h2>
+<p>{{genre}}</p>
+<p>{{plot}}</p>
+<a href="/movies">Back!</a>
+
+<a href="/movies/{{_id}}/delete">Remove me!</a>
+<a href="/movies/{{_id}}/edit">Edit me!</a>
+{{/with}}
+
+
+<a href="/">Home</a>
